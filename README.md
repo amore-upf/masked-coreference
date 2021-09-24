@@ -42,9 +42,9 @@ The following line will evaluate the model and produce dataframes of features fo
 `GPU=0 python evaluate_and_extract.py <experiment> <phase> <context>`
 
 where 
-- <experiment> specifies the experiment that you would like to use, e.g.,: spanbert_base, train_spanbert_base_maskperc15. Experiment configurations are found in `experiment.conf`.
-* <phase> can be `eval` or `test`. <phase> is set to be `eval` by default and the model is evaluated on the dev set. To run the model on the test set, you need to specify this parameter to be `test`.
-* <context> specifies the scope of context you would like the model to use for coreference resolution. The model uses both sides of the context if not specified, and only uses left context if this is set to be `True`.
+* `<experiment>` specifies the experiment that you would like to use, e.g.,: spanbert_base, train_spanbert_base_maskperc15. Experiment configurations are found in `experiment.conf`.
+* `<phase>` can be `eval` or `test`. <phase> is set to be `eval` by default and the model is evaluated on the dev set. To run the model on the test set, you need to specify this parameter to be `test`.
+* `<context>` specifies the scope of context you would like the model to use for coreference resolution. The model uses both sides of the context if not specified, and only uses left context if this is set to be `True`.
 
 
 
