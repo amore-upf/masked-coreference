@@ -49,7 +49,7 @@ where
 
 
 ## Citation
-The system is described in this paper: Does referent predictability affect the choice of referential form? A computational approach using masked coreference resolution (arxiv link)
+The system is described in this paper: [Does referent predictability affect the choice of referential form? A computational approach using masked coreference resolution](https://arxiv.org/abs/2109.13105)
 
 ```
 @inproceedings{ aina2021referent,
